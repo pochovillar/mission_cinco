@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+
+    <meta name="description" content="A page to find simple and delicious recipes for college students">
+    <title>The real football</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <div class="hero">
+        <div class="video-background">
+            <div class="video-foreground">
+                <iframe src="https://www.youtube.com/embed/8_B4SzGp5yU?autoplay=1&mute=1&modestbranding=1&playlist=8_B4SzGp5yU&loop=1"
+                        allow="autoplay; loop"></iframe>
+            </div>
+        </div>
+
+        <h1>Football</h1>
+        <h2>The beatiful game.</h2>
+
+        <p></p>
+    </div>
+    <header>
+        <div class="menu-icon">
+            <svg viewBox="0 0 60 60">
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+                <line x1="5%" y1="50%" x2="95%" y2="50%" />
+            </svg>
+        </div>
+        <nav>
+            <ul>
+                <li><a>Home</a></li>
+                <li><a href="about/index.html">About</a></li>
+                <li><a href="contact/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+
+    <footer>
+        <p> This page was built by <em>Martin Villar.</em> I do not claim the rights of the videos or images used.</p>
+
+    </footer>
+    <!-- scripts will be here-->
+</body>
+</html>
